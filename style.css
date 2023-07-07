@@ -32,7 +32,7 @@ body{
     transition: 1s;
 }
 .logo:hover{
-    color: rgb(57, 195, 135);
+    color: rgb(183, 255, 0);
 }
 
 .navbar a{
@@ -84,11 +84,22 @@ body{
 h3 .name{
     font-size: 40px;
     color: aquamarine;
+    transition: 3s;
 }
 
+.name:hover{
+    color: rgb(183, 255, 0);
+    }
+
 .home-content h2{
-    font-size: 25px;;
+    font-size: 25px;
+    transition: 3s;
 }
+
+.home-content h2:hover{
+    color: coral;
+}
+
 .home-content p{
     font-size: 13px;
     margin-top: 30px;
@@ -105,6 +116,10 @@ h3 .name{
     margin: 0;
     padding: 0;
     color: aquamarine;
+    transition: 2s;   
+}
+#date b:hover{
+    color: coral;
 }
 
 .home-content .button-box{
@@ -157,6 +172,6 @@ h3 .name{
 }
 
 .home-hvr:hover{
-    background: #171717;
+    background: white;
     opacity: .5;
 }
