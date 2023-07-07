@@ -25,7 +25,7 @@ body{
 }
 
 .logo{
-    font-size: 25px;
+    font-size: 27px;
     color:rgb(240,255,240) ;
     text-decoration: none;
     font-weight: 700;
@@ -37,8 +37,9 @@ body{
 
 .navbar a{
     font-size: 18px;
+    font-weight: bolder;
     color:rgb(240,255,240) ;
-    text-decoration: none;
+    text-decoration:none ;
     margin-left: 35px;
     font-weight: 500;
     transition: 0.3s;
@@ -54,6 +55,8 @@ body{
 .navbar .active{
     color: rgb(60, 215, 161);
     text-decoration: line-through;
+    font-weight: bolder;
+    font-size: larger;
 }
 .home{
     display: flex;
@@ -157,7 +160,7 @@ h3 .name{
 
 }
 .button-box a:nth-child(1):hover{
-    background: #171717;
+    background:#171717;
 }
 
 .home-hvr{
