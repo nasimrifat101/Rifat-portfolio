@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #171717;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 35px;
+    font-weight: 500;
+    transition: 0.3s;
+
+
+}
+
+.navbar a:hover{
+    color: rgb(60, 215, 161);
+
+}
+
+.navbar a:active{
+    color: rgb(60, 215, 161);
+    text-decoration: line-through;
+}
+.home{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.home-content{
+    background: ;
+    max-width: 550px;
+}
+
+.home-content h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3 .name{
+    font-size: 50px;
+    color: aquamarine;
+}
+
+.home-content h2{
+    font-size: 25px;;
+}
+.home-content p{
+    font-size: small;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#date{
+    margin-top: 10px;
+    padding: 0;
+}
+
+#date b{
+    margin: 0;
+    padding: 0;
+    color: aquamarine;
+}
+
+.home-content .button-box{
+    width: 345px;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+.button-box a{
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    border: 2px solid aqua;
+    font-size: 19px;
+    text-decoration: none;
+    color: #171717;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
