@@ -29,6 +29,10 @@ body{
     color:rgb(240,255,240) ;
     text-decoration: none;
     font-weight: 700;
+    transition: 1s;
+}
+.logo:hover{
+    color: rgb(57, 195, 135);
 }
 
 .navbar a{
@@ -137,4 +141,22 @@ h3 .name{
     color: rgb(7, 92, 92);
 
 }
+.button-box a:nth-child(1):hover{
+    background: #171717;
+}
 
+.home-hvr{
+    position: absolute;
+    top:0 ;
+    right: 30px;
+    width: 500px;
+    height: 100%;
+    background: transparent;
+    transition: 4s;
+
+}
+
+.home-hvr:hover{
+    background: #171717;
+    opacity: .5;
+}
