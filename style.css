@@ -16,7 +16,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 7%;
     background:transparent;
     display: flex;
     justify-content: space-between;
@@ -26,14 +26,14 @@ body{
 
 .logo{
     font-size: 25px;
-    color: #fff;
+    color:rgb(240,255,240) ;
     text-decoration: none;
     font-weight: 700;
 }
 
 .navbar a{
     font-size: 18px;
-    color: #fff;
+    color:rgb(240,255,240) ;
     text-decoration: none;
     margin-left: 35px;
     font-weight: 500;
@@ -47,30 +47,38 @@ body{
 
 }
 
-.navbar a:active{
+.navbar .active{
     color: rgb(60, 215, 161);
     text-decoration: line-through;
 }
 .home{
     display: flex;
+    background-image: url(asset/landing-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 24px;
+    background-position-y:-35px ;
     height: 100vh;
     flex-direction: column;
     justify-content: center;
     padding: 0 10%;
+    
 }
 
 .home-content{
-    background: ;
     max-width: 550px;
+    color:rgb(240,255,240) ;
 }
 
 .home-content h3{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
+    margin-top: 70px;
+    color:rgb(240,255,240) ;
 }
 
 h3 .name{
-    font-size: 50px;
+    font-size: 40px;
     color: aquamarine;
 }
 
@@ -78,7 +86,7 @@ h3 .name{
     font-size: 25px;;
 }
 .home-content p{
-    font-size: small;
+    font-size: 13px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -86,6 +94,7 @@ h3 .name{
 #date{
     margin-top: 10px;
     padding: 0;
+    font-size: 13px;
 }
 
 #date b{
@@ -95,18 +104,18 @@ h3 .name{
 }
 
 .home-content .button-box{
-    width: 345px;
+    width: 300px;
     height: 50px;
     justify-content: space-between;
     display: flex;
-    margin-top: 20px;
+    margin: top 30px;px;
 }
 .button-box a{
     display: inline-flex;
-    width: 150px;
+    width: 140px;
     height: 100%;
     border: 2px solid aqua;
-    font-size: 19px;
+    font-size: 16px;
     text-decoration: none;
     color: #171717;
     border-radius: 8px;
@@ -115,4 +124,17 @@ h3 .name{
     background-color: black;
     font-weight: 600;
     letter-spacing: 1px;
+    animation: forwards;
+    transition: 0.3s;
 }
+
+.button-box a:hover{
+    background-color: rgb(77, 227, 177);
+}
+
+.button-box a:nth-child(1){
+    background: rgb(90, 242, 191);
+    color: rgb(7, 92, 92);
+
+}
+
