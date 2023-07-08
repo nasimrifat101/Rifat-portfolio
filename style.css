@@ -651,3 +651,32 @@ input[type=email] {
 ::placeholder{
     padding: 10px;
 }
+/* skilled section */
+.icons{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.first-btch {
+    letter-spacing: 30px;
+    padding-bottom: 10px;
+}
+.second-btch{
+    padding-top: 10px;
+    letter-spacing: 30px;
+}
+.first-btch a{
+    color: #171717;
+}
+.second-btch a{
+    color: #171717;
+}
+.first-btch a:hover{
+    color: aquamarine;
+}
+.second-btch a:hover{
+    color: aquamarine;
+}
