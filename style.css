@@ -571,16 +571,18 @@ footer{
 }
 
 .contain{
-    background-color:rgb(32, 32, 32);
+    background-color: #171717;
+    opacity: 0%;
     height: 480px;
     width: 500px;
     border-radius: 30px 30px 0px 0px;
-   transition: 10s;
+   transition: 4s;
     
 }
 
 .contain:hover{
-    background-color: aquamarine;
+    background-color: #171717;
+    opacity: 100%;
 }
 
 .git{
@@ -596,6 +598,7 @@ footer{
     margin-left: 99px;
 }
 input[type=text] {
+    padding: 15px;
     border: none;
     color: coral;
     border-radius: 10px;
@@ -606,6 +609,7 @@ input[type=text] {
     width: 300px;
   }
 input[type=submit] {
+    padding: 15px;
     border: none;
     color: coral;
     border-radius: 10px;
@@ -616,6 +620,7 @@ input[type=submit] {
     width: 300px;
   }
 input[type=email] {
+    padding: 15px;
     border: none;
     color: coral;
     border-radius: 10px;
@@ -626,6 +631,7 @@ input[type=email] {
     width: 300px;
   }
 #ta{
+     padding: 15px;
     border: none;
     color: coral;
     border-radius: 10px;
