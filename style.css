@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
+/*home page starts here*/
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -178,3 +180,320 @@ h3 .name{
     background: white;
     opacity: .5;
 }
+/*home page ends here*/
+
+
+/*about page starts here*/
+
+.aboutt{
+    display: flex;
+    margin: 120px 10%;
+    flex-direction: row;
+    color:rgb(240,255,240) ;
+}
+.hero{
+    display:flex;
+    height: 500px;
+}
+
+.text{
+    margin-top: 65px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.text h3{
+    font-size: 28px;
+}
+
+.locatio{
+    color:rgb(240,255,240) ;
+    transition: 3s;
+}
+.locatio:hover{
+    color: aquamarine;
+}
+
+
+.location{
+    color: aquamarine;
+    transition: 3s;
+}
+
+.location:hover{
+    color: coral;
+}
+
+.abt{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.txt{
+    margin-top: 20px;
+
+}
+.a{
+    color: aquamarine;
+    transition: 3s;
+}
+.a:hover{
+    color: coral;
+}
+
+.white-bx{
+    margin-top: 20px;
+    height: 170px;
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(143, 231, 208);
+    transition: 5s;
+}
+
+.white-bx:hover{
+    background: coral;
+}
+
+.home-hvrr{
+    top: 700px;
+    position: absolute;
+    left: 100px;
+    width: 420px;
+    height: 100%;
+    background: transparent;
+    transition: 4s;
+
+}
+
+.home-hvrr:hover{
+    background: white;
+    opacity: .5;
+}
+
+/*about page ends here*/
+
+/*work page starts here*/
+
+.secthree{
+    display: flexbox;
+    flex-direction: column;
+    margin: 120px 10%;
+    color:rgb(240,255,240) ;
+}
+
+.selecte{
+    font-size: x-large;
+    padding-bottom: 10px;
+}
+
+.highlight{
+    color: aquamarine;
+    transition: 2s;
+}
+.highlight:hover{
+    color: coral;
+}
+
+.boxes{
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-top: 25px;
+    margin-right: 23px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 30px;
+    align-items: last baseline;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    
+    
+}
+
+.boxes a{
+    display: inline-block;
+    height: 300px;
+    width:200px;
+    background-color:rgb(245, 157, 124);;
+    margin-bottom: 20px;
+    text-decoration: none;
+    justify-content: first baseline;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    color: #171717;
+    padding: 20px;
+    font-weight: 700;
+    transition: 2s;
+}
+
+.boxes a:hover{
+    background: rgb(31, 230, 153);
+}
+
+.boxes{
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-top: 25px;
+    margin-right: 23px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 30px;
+    align-items: last baseline;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    
+    
+}
+
+.boxe a{
+    display: inline-block;
+    height: 300px;
+    width:200px;
+    background-color:rgb(201, 240, 24);;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    justify-content: first baseline;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    color: #171717;
+    padding: 20px;
+    font-weight: 700;
+    transition: 2s;
+}
+.boxe a:hover{
+    background: rgb(31, 230, 153);
+}
+
+.boxe{
+   
+    position: relative;
+    top: -190px;
+    width: 200px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 215px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+.box a{
+    display: inline-block;
+    height: 300px;
+    width:200px;
+    background-color:rgb(135, 236, 98);;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    justify-content: first baseline;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    color: #171717;
+    padding: 20px;
+    font-weight: 700;
+    transition: 2s;
+}
+.box a:hover{
+    background: rgb(31, 230, 153);
+}
+
+.box{
+   
+    position: relative;
+    top: -600px;
+    width: 200px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 430px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+.boz a{
+    display: inline-block;
+    height: 300px;
+    width:200px;
+    background-color:rgb(255, 104, 66);;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    justify-content: first baseline;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    color: #171717;
+    padding: 20px;
+    font-weight: 700;
+    transition: 2s;
+}
+
+.boz a:hover{
+    background: rgb(31, 230, 153);
+}
+
+.boz{
+   
+    position: relative;
+    top: -890px;
+    width: 200px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 646px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+.bozz a{
+    display: inline-block;
+    height: 300px;
+    width:200px;
+    background-color:rgb(98, 176, 236);;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    justify-content: first baseline;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    color: #171717;
+    padding: 20px;
+    font-weight: 700;
+    transition: 2s;
+}
+.bozz a:hover{
+    background: rgb(31, 230, 153);
+}
+
+.bozz{
+   
+    position: relative;
+    top: -1300px;
+    width: 200px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 863px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+/*work page ends here*/
