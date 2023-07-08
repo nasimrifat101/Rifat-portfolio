@@ -141,7 +141,7 @@ h3 .name{
     border: 2px solid aqua;
     font-size: 16px;
     text-decoration: none;
-    color: #171717;
+    color: #fffefe;
     border-radius: 8px;
     align-items: center;
     justify-content: center;
@@ -177,7 +177,7 @@ h3 .name{
 }
 
 .home-hvr:hover{
-    background: white;
+    background: #171717;
     opacity: .5;
 }
 /*home page ends here*/
@@ -197,7 +197,7 @@ h3 .name{
 }
 
 .text{
-    margin-top: 65px;
+    margin-top: 35px;
     justify-content: center;
     padding: 10px;
 }
@@ -244,7 +244,7 @@ h3 .name{
 
 .white-bx{
     margin-top: 20px;
-    height: 170px;
+    height: 168px;
     width: 100%;
     border-radius: 10px;
     background: rgb(143, 231, 208);
@@ -267,7 +267,7 @@ h3 .name{
 }
 
 .home-hvrr:hover{
-    background: white;
+    background: #171717;
     opacity: .5;
 }
 
